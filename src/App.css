@@ -5,9 +5,14 @@
   height: 100%;
 }
 
-.book{
-  background-color: red;
+.booklist{
+  display: flex;
+  gap: 20px;
 }
 
-
-
+.book{
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid black;
+}
